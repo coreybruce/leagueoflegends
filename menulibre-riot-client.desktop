@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Riot Client
+NoDisplay=true
+Icon=/home/corey/.local/share/icons/riot.svg
+Actions=
+Categories=Game;
+StartupWMClass=riotclientux.exe

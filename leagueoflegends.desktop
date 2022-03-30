@@ -1,12 +1,13 @@
 [Desktop Entry]
+Version=1.1
+Type=Application
 Name=League of Legends
 Comment=League of Legends helper script
-Type=Application
-Exec=leagueoflegends start
 Icon=leagueoflegends
-Terminal=false
-Categories=Wine;Game;
-Actions=Client;killall;winecfg;
+Exec=leagueoflegends start
+Actions=killall;winecfg;
+Categories=Game;Wine;
+StartupWMClass=leagueclientux.exe
 
 [Desktop Action killall]
 Name=killall LoL Processes
